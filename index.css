@@ -1,0 +1,72 @@
+body{
+    width: 700px;
+    height: 500px;
+    margin: 0 auto 0 auto;
+    margin-top: 150px;
+    background-color: bisque;
+
+}
+
+.head{
+    display: flex;
+    margin-left: 5px;
+    gap: 400px;
+}
+
+
+.guess{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.correct{
+    width:100px;
+    height: 50px;
+    background-color: aliceblue;
+    color: black;
+    margin-left: 300px;
+    font-size: 30px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
+.number{
+    width:100px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    margin-left: 70px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#sentence{
+    font-size: 30px;
+    color: black;
+    margin-top: 60px;
+    
+}
+
+.check{
+    width:80px;
+    height: 30px;
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.third{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 30px;
+}
